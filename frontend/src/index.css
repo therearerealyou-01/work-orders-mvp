@@ -1,0 +1,26 @@
+@import "./ui/tokens.css";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ui-font);
+  background: var(--ui-bg);
+  color: var(--ui-text);
+  background: linear-gradient(160deg, #0f172a 0%, #1d4ed8 55%, #38bdf8 100%);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}

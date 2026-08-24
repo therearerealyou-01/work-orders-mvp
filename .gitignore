@@ -1,0 +1,22 @@
+# Dependencies (matches any folder named node_modules)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build
+dist/
+build/
+frontend/dist/
+
+# Env (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+coverage/
+.idea/
+.vscode/
+*.tsbuildinfo

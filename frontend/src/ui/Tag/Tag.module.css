@@ -1,0 +1,34 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.orange {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.green {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.gold {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.slate {
+  background: #f1f5f9;
+  color: #475569;
+}
