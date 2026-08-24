@@ -1,6 +1,6 @@
 # Система нарядов (MVP)
 
-Тестовое задание: диспетчерская для полевых бригад. Операторы создают и назначают наряды, бригады видят только свои и меняют статус. Обновления приходят в реальном времени по WebSocket.
+Диспетчерская для полевых бригад. Операторы создают и назначают наряды, бригады видят только свои и меняют статус. Обновления приходят в реальном времени по WebSocket.
 
 Домен абстрактный, не привязан к конкретной отрасли.
 
@@ -12,7 +12,7 @@
 | Сессии / 2FA    | Redis, `express-session` + `connect-redis`        |
 | Очередь событий | RabbitMQ (`amqplib`)                              |
 | Realtime        | Socket.IO                                         |
-| Frontend        | React, TypeScript, Vite, React Router, свой ui-kit |
+| Frontend        | React, TypeScript, Vite, React Router             |
 | Валидация       | zod                                               |
 | Пароли          | bcrypt                                            |
 | Инфра           | Docker Compose                                    |
@@ -31,8 +31,7 @@ docker compose up -d
 
 ```bash
 cd backend
-copy .env.example .env   # Windows
-# cp .env.example .env  # macOS / Linux
+copy .env.example .env
 npm install
 npm run seed             # можно пропустить: при пустой БД seed запустится сам (AUTO_SEED=true)
 npm run dev
